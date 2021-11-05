@@ -1,4 +1,4 @@
-nama = input("Nama : ")
-umur = input("Umur : ")
-tinggi = input("Tinggi : ")
+nama = str(input("Nama : "))
+umur = int(input("Umur : "))
+tinggi = float(input("Tinggi : "))
 print(f"Nama saya {nama}, umur saya {umur} tahun, dan tinggi saya {tinggi} cm")
